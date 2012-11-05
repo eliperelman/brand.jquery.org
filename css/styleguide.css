@@ -1,0 +1,124 @@
+/* @override 
+	http://jon-mbp.local/~jon/jquery/css/docs.css */
+
+
+
+a {
+	color: #0e5792;
+}
+
+header {
+	background: url(../images/bg-body-jquery.jpg) no-repeat center top #065691;
+	margin: 0 auto;
+	padding: 20px 0;
+	   -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	margin-bottom: 40px;        
+}
+
+header h3 {
+	float: right;
+	color: rgba(255, 255, 255, 0.5);
+	font: 25px/25px Proxima-Nova, "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#container {
+	padding-left: 30px;
+	padding-right: 30px;
+	background: none #fff;
+}
+
+#content-wrapper {
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#sidebar {
+	margin-right: -30px;
+}
+
+pre {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#content .example {
+	border: 1px solid #dadada;
+	-webkit-border-radius: 3px;
+	   -moz-border-radius: 3px;
+	        border-radius: 3px;
+			padding: 0 20px;
+			margin-bottom: 30px;
+}
+
+#content .example pre {
+	clear: both;
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-bottom: 0;
+	-webkit-border-bottom-right-radius: 3px;
+	-webkit-border-bottom-left-radius: 3px;
+	-moz-border-radius-bottomright: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+#content .example h3 {
+	background-color: #f1f1f1;
+	margin-left: -20px;
+	margin-right: -20px;
+	padding: 20px;
+	margin-top: 0;
+	margin-bottom: 30px;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+#content .example h3.ignore-example {
+	background-color: #fff;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	margin-top: 0;
+	margin-bottom: 10px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#banner-secondary {
+	margin-left: -20px;
+	margin-right: -20px;
+	margin-top: -30px;
+}
+
+@media only screen and (max-width: 700px) {
+	#content-wrapper {
+		padding-top: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	#container {
+		padding: 0;
+	}
+	
+	#content-wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
